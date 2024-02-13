@@ -43,14 +43,13 @@ a {
     height: 100%;
     border: 1px solid aquamarine;
     justify-content: space-between;
-    
-    
 }
 
 .logo{
     display: flex;
     border: 1px solid pink;
 }
+
 .logo img {
     margin-top: 30px;
     margin-left: 50px;
@@ -67,8 +66,6 @@ a {
     display: flex;
     justify-content: space-around;
     border: 1px solid pink;
-
-      
 }
 
 .btn-menu{
@@ -79,11 +76,13 @@ padding: 16px;
 vertical-align: top;
 background-color: #00000000;
 }
+
 .btn-menu:hover {
     border-top: 2px solid #0353e9;
     color: #0353e9;
     
 }
+
 .btn-menu:focus-within {
     border-top: 2px solid #0353e9; 
     color: #0353e9; 
@@ -104,8 +103,12 @@ background-color: #00000000;
 }
 
 
+/*****CORE/Info-Group*******/
+/*...*/
 
 
+
+/*****CORE/Hbg&Popu*******/
 
 .section-title {
     margin: 0;
