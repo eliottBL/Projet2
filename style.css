@@ -17,11 +17,13 @@
 body {
     display: flex;
     justify-content: center;
+
 }
 
 .main-container {
     flex-direction: column; 
     display: flex;
+    gap: 30px;
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
@@ -98,13 +100,128 @@ background-color: #00000000;
 /*****CORE*******/
 
 .sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
     border: 1px solid rgb(197, 255, 127);
     padding: 0 50px;
+
 }
 
 
-/*****CORE/Info-Group*******/
-/*...*/
+/*****INFO-GROUPE*******/
+
+.info-group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid rgba(127, 255, 127, 0.82);
+}
+
+/*Hdline*/
+.headline {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.info-group-title{
+    margin: 0px;
+    font-size: 22px;
+}
+.info-group-subtitle{
+    margin: 0px;
+    font-size: 16px;
+}
+
+/*search*/
+.search-bar{
+    display: flex;
+}
+
+.search-bar input {
+    padding-left: 20px;
+}
+
+.location-dot{
+    background-color: grey;
+    border-radius: 15px 0px 0px 15px;
+    width: 50px;
+    height: 49px;
+    border: 1px;
+}
+.location-dot i {
+    width: 14px;
+    height: 18px; 
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.btn-search{
+    background-color: blue;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    padding-left: auto;
+    border: 1px;
+    max-height: 49px;
+    max-width: 132px;
+    width: 100%;
+}
+
+/*filter*/
+.filter-bar{
+    display: flex;
+    gap: 15px;
+}
+
+.filter-txt {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*A verifier nécéssité*/
+.filter-group{
+    display: flex;
+    gap: 15px;
+}
+
+.btn-filter {
+    border: 2px solid grey;
+    display: flex;
+    gap: 10px;
+    height: 5Opx;
+    padding: 4px 19px 4px 19px;
+    border-radius: 25px;
+}
+.btn-filter i {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btn-filter:hover {
+    background-color: #DEEBFF;
+}
+
+
+/*info*/
+.infobar {
+    display: flex;
+    gap: 10px;
+}
+
+.cercle-info {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+.cercle-info i {
+    margin: auto;
+    font-size: x-small;
+}
+/******************************************************END/INFO-GROUP****/
 
 
 
