@@ -35,6 +35,20 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+
 
 
 /*****HEADER*******/
@@ -140,7 +154,17 @@ background-color: #00000000;
 
 .search-bar input {
     padding-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
 }
+
+/* ¡¡ ***************  Adaptation des cotes */
+.search-bar button {
+    font-weight: 500;
+    font-size: 17px; 
+}
+
+
 
 .location-dot{
     background-color: grey;
@@ -190,12 +214,17 @@ background-color: #00000000;
     display: flex;
     gap: 10px;
     height: 5Opx;
-    padding: 4px 19px 4px 19px;
+    padding: 12px 19px 12px 19px;
     border-radius: 25px;
 }
 .btn-filter i {
     margin-top: auto;
     margin-bottom: auto;
+}
+.btn-filter p {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0; /* incrementer valleurs de margin 'P' en GENERAL */
 }
 
 .btn-filter:hover {
@@ -228,9 +257,10 @@ background-color: #00000000;
 
 /*****CORE/Hbg&Popu*******/
 
-.section-title {
+h2 {
     margin: 0;
     font-size: 22px;
+    font-weight: 700;
 }
 
 .card {
@@ -372,6 +402,38 @@ background-color: #00000000;
 }
 
 /****** Hebergements And Populaires ***********************/
+
+
+/************footer**********/
+
+.footer{
+    display: flex;
+    background-color:var(--main-bg-color);    
+}
+
+.footer section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 0px;
+    gap: 15px;
+    width: 33%;
+}
+
+.footer ul {
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid blueviolet;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+/************footer**********/
+
 
 
 
