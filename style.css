@@ -80,13 +80,13 @@ background-color: #00000000;
 }
 
 .btn-menu:hover {
-    border-top: 2px solid #0353e9;
-    color: #0353e9;
+    border-top: 2px solid var(--main-color);
+    color: var(--main-color);
     
 }
 
 .btn-menu:focus-within {
-    border-top: 2px solid #0353e9; 
+    border-top: 2px solid var(--main-color); 
     color: #0353e9; 
 }
 
@@ -150,6 +150,7 @@ background-color: #00000000;
     border: 1px;
 }
 .location-dot i {
+    color: black;
     width: 14px;
     height: 18px; 
     margin-top: 15px;
@@ -157,7 +158,7 @@ background-color: #00000000;
 }
 
 .btn-search{
-    background-color: blue;
+    background-color: var(--main-color);
     border-radius: 0px 15px 15px 0px;
     color: white;
     padding-left: auto;
@@ -255,7 +256,7 @@ background-color: #00000000;
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Hebergements And Populaires ***********************/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -272,6 +273,51 @@ background-color: #00000000;
 .hebergements {
     width: 65%;
 }
+
+.hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.hebergements-cards a {
+    width: 30%;
+}
+
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.hebergements-cards img {
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+}
+
 
 /****** Populaires ***********/
 .populaires {
@@ -318,6 +364,14 @@ background-color: #00000000;
     margin-bottom: 5px;
 }
 
+/**/
+
+.section-footer-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/****** Hebergements And Populaires ***********************/
 
 
 
