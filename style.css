@@ -71,7 +71,7 @@ h4 {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 30px;
-    width: 61,09px;
+    /*width: 61,09px;*/
     height: 19px;
 }
 
@@ -98,15 +98,17 @@ background-color: #00000000;
     color: var(--main-color);
     
 }
-
+/* focus pas deamndé */
 .btn-menu:focus-within {
     border-top: 2px solid var(--main-color); 
     color: #0353e9; 
 }
 
-.btn-menu-txt{
-    /* choisir la police (linker) */
-}
+
+
+
+
+
 
 
 
@@ -185,7 +187,7 @@ background-color: #00000000;
     background-color: var(--main-color);
     border-radius: 0px 15px 15px 0px;
     color: white;
-    padding-left: auto;
+    /*padding-left: auto;*/
     border: 1px;
     max-height: 49px;
     max-width: 132px;
@@ -213,7 +215,7 @@ background-color: #00000000;
     border: 2px solid var(--main-bg-color);
     display: flex;
     gap: 10px;
-    height: 5Opx;
+    /*height: 5Opx;*/
     padding: 12px 19px 12px 19px;
     border-radius: 25px;
 }
@@ -221,10 +223,9 @@ background-color: #00000000;
     margin-top: auto;
     margin-bottom: auto;
 }
-.btn-filter p {
-    font-size: 17px;
-    font-weight: 700;
-    margin: 0; /* incrementer valleurs de margin 'P' en GENERAL */
+.btn-filter h4 {
+    font-size: 16px;
+    margin: 0;
 }
 
 .btn-filter:hover {
@@ -236,6 +237,7 @@ background-color: #00000000;
 .infobar {
     display: flex;
     gap: 10px;
+    border: 2px solid blue;
 }
 
 .cercle-info {
@@ -251,11 +253,25 @@ background-color: #00000000;
     margin: auto;
     font-size: x-small;
 }
+.infobar-txt {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 /******************************************************END/INFO-GROUP****/
 
 
 
-/*****CORE/Hbg&Popu*******/
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+/****Hbg&Popu*******/
 
 .card {
     background-color: white;
@@ -296,13 +312,15 @@ background-color: #00000000;
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .hebergements-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 
@@ -476,9 +494,10 @@ background-color: #00000000;
     border: 2px solid blueviolet;
 }
 
-.footer p {
+.footer li {
     margin-top: 0px;
     margin-bottom: 15px;
+    list-style: none;
 }
 
 
