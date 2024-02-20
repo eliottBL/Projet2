@@ -439,33 +439,28 @@ main {
 }
 
 .acti-cards a {
-    display: flex;
     width: 25%;
-    height: 100%;
-    border: 2px solid rgb(128, 128, 128);/*sup*/
 }
 
 .acti-cards .card {
     display: flex;
-    width: 100%;
     flex-direction: column;
     padding: 0px;
 }
 
 .acti-cards img {
-    max-width: 297px;
-    width: 100%;
-    height: 380px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+   height: 380px;
+   max-width: 297px;
+   width: 100%;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
 }
 
 .acti-cards .card-title {
     margin: 20px 19px 20px 19px;
 }
 
-
-/****** Acti ***********************/
+/****** Acti *********************end**/
 
 
 
