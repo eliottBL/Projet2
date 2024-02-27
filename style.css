@@ -548,6 +548,14 @@ main {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+
+
+
+    .acti-cards img {
+        height: 200px;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -674,9 +682,17 @@ main {
     }
     .acti-cards img {
         max-width:120%;
+        height: 141px;
     }
 
 
 
+    .footer{
+        flex-direction: column;   
+    }
+
+    .footer section{
+        width: auto;
+    }
 
 }
