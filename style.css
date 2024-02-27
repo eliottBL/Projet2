@@ -16,7 +16,6 @@
 body {
     display: flex;
     justify-content: center;
-    border: 3px solid rgb(255, 127, 178);/*sup*/
 }
 
 .main-container {
@@ -25,7 +24,6 @@ body {
     gap: 30px;
     width: 100%;
     max-width: 1440px;
-    /*padding: 0 50px;*/
     box-sizing: border-box;
 }
 
@@ -57,13 +55,11 @@ h4 {
     display: flex;
     max-height: 79px;
     height: 100%;
-    border: 1px solid aquamarine;/*sup*/
     justify-content: space-between;
 }
 
 .logo{
     display: flex;
-    border: 1px solid pink;/*sup*/
 }
 
 .logo img {
@@ -80,11 +76,9 @@ h4 {
     max-width: 344px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid pink;/*sup*/
 }
 
 .btn-menu{
-border: 1px solid pink;/*sup*/
 cursor: pointer;
 text-align: center;
 padding: 16px;
@@ -97,11 +91,11 @@ background-color: #00000000;
     color: var(--main-color);
     
 }
-/* focus pas deamndé */
+/* focus pas deamndé 
 .btn-menu:focus-within {
     border-top: 2px solid var(--main-color); 
     color: #0353e9; 
-}
+} */
 
 
 
@@ -118,7 +112,6 @@ background-color: #00000000;
     display: flex;
     flex-direction: column;
     gap: 35px;
-    border: 1px solid rgb(197, 255, 127);/*sup*/
     padding: 0 50px;
 }
 
@@ -129,7 +122,6 @@ background-color: #00000000;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border: 1px solid rgba(127, 255, 127, 0.82);/*sup*/
 }
 
 /*Hdline*/
@@ -151,12 +143,6 @@ background-color: #00000000;
 .search-bar{
     display: flex;
 }
-
-/*.search-bar button {
-    font-weight: 500;
-    font-size: 17px; 
-    cursor: pointer;
-}*/
 
 .location-dot{
     background-color: var(--main-bg-color);
@@ -212,7 +198,6 @@ background-color: #00000000;
     margin-bottom: auto;
 }
 
-/*A verifier nécéssité*/
 .filter-group{
     display: flex;
     gap: 15px;
@@ -245,7 +230,6 @@ background-color: #00000000;
 .infobar {
     display: flex;
     gap: 10px;
-    border: 2px solid blue;/*sup*/
 }
 
 .cercle-info {
@@ -414,7 +398,7 @@ main {
     margin-bottom: 5px;
 }
 
-/**/
+
 
 .section-footer-title {
     font-size: 18px;
@@ -433,7 +417,6 @@ main {
 .acti-marseille {
     display: flex;
     flex-direction: column;
-    border: 1px solid grey;/*sup*/
     padding: 30px;
     gap: 30px;
 }
@@ -441,7 +424,6 @@ main {
 .acti-cards {
     display: flex;
     gap: 30px;
-    border: 1px solid grey;/*sup*/
 }
 
 .acti-cards a {
@@ -493,7 +475,6 @@ main {
 .footer ul {
     padding: 0px;
     margin: 0px;
-    border: 2px solid blueviolet;/*sup*/
 }
 
 .footer li {
@@ -636,7 +617,6 @@ main {
     }
     .hebergements-and-populaires {
         flex-direction: column-reverse;
-        border:2px solid #0065FC;
         align-content: space-between;
         padding-top: 0px;
     }
@@ -648,7 +628,6 @@ main {
     }
 
     .populaires-cards {
-        border:  solid #0353e9;
         flex-direction: column;
     }
 
